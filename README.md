@@ -1,10 +1,16 @@
-- 👋 Hi, I’m @RikkyRS
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning Programação Js
-- 💞️ I’m looking to collaborate on  
-- 📫 How to reach me ...
+# Rikky
 
-<!---
-RikkyRS/RikkyRS is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Desenvolvedor Full Stack em transição para Graph Security (Neo4j + Cypher).
+Estudando segurança ofensiva e defensiva com foco em análise de infraestrutura como grafo.
+
+## Stack atual
+- Linux, Git, Python
+- JavaScript, Node.js
+- Neo4j, Cypher (em aprendizado)
+
+## Certificações em progresso
+- [ ] eJPT
+- [ ] Neo4j Certified Professional
+
+## Em construção
+- `graph-security-journey` — documentação da jornada de 12 meses
