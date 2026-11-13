@@ -23,13 +23,13 @@ Camada local entre você e o assistente de código: cada tarefa vira um ciclo co
 
 ➡️ [Ver projeto](https://github.com/RikkyRS/Jarvis)
 
-### 👥 User Management API
+### 👥 Pipeline CRM (User Management API)
 
-API REST multiempresa para um CRM: autenticação JWT com sessão viva, autorização por hierarquia de papéis por empresa e documentação de ameaças.
+CRM multiempresa com API REST e painel web: funil de leads por etapa, conversas do WhatsApp junto do lead, autenticação JWT com sessão viva em cookie HttpOnly e permissões por papel em cada empresa.
 
-`TypeScript` `Node.js` `PostgreSQL` `Prisma` `Zod` `Docker` `Render`
+`TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `Next.js` `Supabase` `Vercel`
 
-➡️ [Ver projeto](https://github.com/RikkyRS/user-management-api) · [API em produção](https://user-management-api-raug.onrender.com)
+➡️ [Demonstração ao vivo](https://user-management-api-gray.vercel.app) (botão "Entrar como demonstração") · [Código](https://github.com/RikkyRS/user-management-api)
 
 ### 💈 Site da Barber House
 
