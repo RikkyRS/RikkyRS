@@ -1,123 +1,69 @@
-# Olá! Eu sou Henrique Otta Rodrigues 👋
+# Olá! Eu sou o Henrique Otta Rodrigues 👋
 
-## Desenvolvedor Full Stack | TypeScript • React • Node.js
+## Desenvolvedor Full Stack | TypeScript • React • Node.js • PostgreSQL | IA aplicada
 
-Sou Desenvolvedor Full Stack com experiência profissional na manutenção e evolução de sistemas web empresariais em produção.
+Vim do chão de fábrica: passei anos operando e ajustando injetoras na indústria e levei pra programação o que aprendi lá: processo, atenção a detalhe e foco em resolver o problema de verdade.
 
-Atuo na investigação e resolução de problemas que envolvem múltiplas camadas da aplicação — frontend, backend e banco de dados — além da implementação de funcionalidades e evolução de regras de negócio.
+Hoje trabalho em duas frentes:
 
-🎯 Atualmente busco oportunidades como **Desenvolvedor Full Stack Júnior**.
+- **Desenvolvimento web:** manutenção e evolução de um sistema empresarial em produção (React, Node.js, TypeScript, PostgreSQL). Eliminei consultas N+1 em listagens operacionais, criei relatórios em tempo real de produção e exportação para Excel e PDF.
+- **IA aplicada:** como Gestor de IA na Carmillion, configuro agentes de atendimento com LLMs para revendas de veículos, faço a engenharia de prompts e integro a plataforma com Mercado Livre, OLX e Webmotors.
 
----
-
-## 🧑‍💻 Experiência prática
-
-Atuação profissional em sistemas web utilizando:
-
-- Correção e investigação de bugs complexos
-- Desenvolvimento e evolução de funcionalidades
-- APIs REST
-- Regras de negócio
-- PostgreSQL e SQL
-- Paginação, filtros e ordenação server-side
-- Validação de dados
-- Docker e variáveis de ambiente
-- Testes automatizados
-- Git e Pull Requests
-
----
-
-## 🚀 Tecnologias
-
-### Linguagens
-
-- TypeScript
-- JavaScript
-- SQL
-
-### Frontend
-
-- React
-- HTML
-- CSS
-
-### Backend
-
-- Node.js
-- Express
-- APIs REST
-
-### Banco de Dados
-
-- PostgreSQL
-- Prisma ORM
-
-### Qualidade e Ferramentas
-
-- Zod
-- Docker
-- Git
-- GitHub
-- Vitest
-- GitHub Actions
-- Linux
-- npm
+🎯 Busco oportunidades como **Desenvolvedor Full Stack** (presencial ou híbrido em Porto Alegre e região, ou remoto).
 
 ---
 
 ## 📌 Projetos em destaque
 
-### 🤖 JARVIS
+### 🤖 JARVIS — runtime open source para desenvolvimento com IA
 
-Runtime local para desenvolvimento assistido por IA.
+Camada local entre você e o assistente de código: cada tarefa vira um ciclo com registro de evidências, toda afirmação é marcada como conhecida, inferida ou desconhecida, e mudanças de risco alto pedem aprovação.
 
-Projeto open source desenvolvido em TypeScript e Node.js, com foco em controle de ciclos de desenvolvimento, análise de contexto, impacto e risco.
-
-**Principais tecnologias e conceitos:**
-
-- TypeScript
-- Node.js
-- CLI
-- SQLite
-- Testes automatizados com Vitest
-- GitHub Actions
-- Arquitetura modular
-- Análise de risco
-- Persistência local
-- Integração com GitHub
+`TypeScript` `Node.js` `SQLite` `CLI` `Vitest (57 testes)` `GitHub Actions`
 
 ➡️ [Ver projeto](https://github.com/RikkyRS/Jarvis)
 
+### 👥 User Management API
+
+API REST multiempresa para um CRM: autenticação JWT com sessão viva, autorização por hierarquia de papéis por empresa e documentação de ameaças.
+
+`TypeScript` `Node.js` `PostgreSQL` `Prisma` `Zod` `Docker` `Render`
+
+➡️ [Ver projeto](https://github.com/RikkyRS/user-management-api) · [API em produção](https://user-management-api-raug.onrender.com)
+
+### 💈 Site da Barber House
+
+Site de uma rede de barbearias com 6 unidades: mapa interativo, botão que encontra a unidade mais perto pela geolocalização e pedido direto pelo WhatsApp da unidade.
+
+`React` `TypeScript` `Vite` `Vercel`
+
+➡️ [Ver site](https://barberhouse-barbearia.vercel.app)
+
 ---
 
-### 👥 User Management API & CRM
+## 🚀 Tecnologias
 
-Aplicação Full Stack para gerenciamento de usuários e entidades.
-
-**Stack:**
-
-- TypeScript
-- Node.js
-- React
-- PostgreSQL
-- Prisma
-- Zod
-- Docker
-
-➡️ [Ver projeto](COLOQUE_AQUI_O_LINK)
+| Área | Ferramentas |
+|---|---|
+| Linguagens | TypeScript, JavaScript, SQL, Python, Java |
+| Front-end | React, HTML, CSS, Vite |
+| Back-end | Node.js, Express, Spring Boot, APIs REST, RBAC |
+| Banco de dados | PostgreSQL, Prisma ORM |
+| IA | LLMs, agentes de IA, engenharia de prompts, integrações de APIs |
+| Qualidade e DevOps | Zod, Vitest, GitHub Actions, Docker, Render, Vercel, Git Flow |
 
 ---
 
 ## 🎓 Formação
 
-🎓 **Bacharelado em Engenharia de Software**  
-Unicesumar — Cursando
+**Engenharia de Software** — UniCesumar (cursando)
+**Técnico em Plásticos** — IFRJ
 
 ---
 
 ## 📫 Contato
 
-- LinkedIn: https://linkedin.com/in/henriqueotta
+- LinkedIn: https://www.linkedin.com/in/henrique-otta-rodrigues
 - GitHub: https://github.com/RikkyRS
 
-📍 Rio Grande do Sul, Brasil
+📍 Sapucaia do Sul, Rio Grande do Sul, Brasil
