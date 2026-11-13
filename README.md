@@ -11,6 +11,8 @@ Hoje trabalho em duas frentes:
 
 🎯 Busco oportunidades como **Desenvolvedor Full Stack** (presencial ou híbrido em Porto Alegre e região, ou remoto).
 
+🌐 **Portfólio interativo:** https://henrique-otta-rodrigues.vercel.app
+
 ---
 
 ## 📌 Projetos em destaque
@@ -63,6 +65,7 @@ Site de uma rede de barbearias com 6 unidades: mapa interativo, botão que encon
 
 ## 📫 Contato
 
+- Portfólio: https://henrique-otta-rodrigues.vercel.app
 - LinkedIn: https://www.linkedin.com/in/henrique-otta-rodrigues
 - GitHub: https://github.com/RikkyRS
 
