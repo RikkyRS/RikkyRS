@@ -57,7 +57,7 @@ Site de uma rede de barbearias com 6 unidades: mapa interativo, botão que encon
 ## 🎓 Formação
 
 **Engenharia de Software** — UniCesumar (cursando)
-**Técnico em Plásticos** — IFRJ
+**Técnico em Plásticos** — IFSul, câmpus Sapucaia do Sul
 
 ---
 
