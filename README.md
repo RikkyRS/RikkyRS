@@ -17,11 +17,11 @@ Hoje trabalho em duas frentes:
 
 ## 📌 Projetos em destaque
 
-### 🤖 JARVIS — runtime open source para desenvolvimento com IA
+### 🤖 JARVIS: runtime open source que governa agentes de IA
 
-Camada local entre você e o assistente de código: cada tarefa vira um ciclo com registro de evidências, toda afirmação é marcada como conhecida, inferida ou desconhecida, e mudanças de risco alto pedem aprovação.
+A IA propõe, o código autoriza. Política de risco, aprovação de uso único presa a cada operação, auditoria com hash encadeado e isolamento em container. **210 testes**, e o CI roda o isolamento num Docker de verdade.
 
-`TypeScript` `Node.js` `SQLite` `CLI` `Vitest (57 testes)` `GitHub Actions`
+`TypeScript` `Node.js` `SQLite` `Docker` `Vitest` `GitHub Actions`
 
 ➡️ [Ver projeto](https://github.com/RikkyRS/Jarvis)
 
@@ -32,6 +32,22 @@ CRM multiempresa com API REST e painel web: funil de leads por etapa, conversas 
 `TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `Next.js` `Supabase` `Vercel`
 
 ➡️ [Demonstração ao vivo](https://user-management-api-gray.vercel.app) (botão "Entrar como demonstração") · [Código](https://github.com/RikkyRS/user-management-api)
+
+### 🧠 Agente do CRM: tool calling do zero + MCP
+
+Agente de IA que opera o Pipeline CRM por linguagem natural: consulta leads, muda etapa do funil e cadastra contatos, sempre pedindo confirmação antes de alterar algo. O modelo só pede a ferramenta; quem valida e executa é o código. Evals **10/10** e testes no CI.
+
+`TypeScript` `Ollama` `MCP` `GitHub Actions`
+
+➡️ [Ver projeto](https://github.com/RikkyRS/agente-crm)
+
+### 📄 Pergunte ao meu currículo: RAG com evals
+
+Responde perguntas sobre a minha carreira usando só o currículo, cita a fonte e admite quando não sabe. Busca na seção certa em **10/10**. A lição: avaliar busca e geração separadamente mostrou qual das duas metades falhava.
+
+`TypeScript` `PostgreSQL` `pgvector` `Voyage AI` `LLM`
+
+➡️ [Ver projeto](https://github.com/RikkyRS/pergunte-ao-curriculo)
 
 ### 💈 Site da Barber House
 
