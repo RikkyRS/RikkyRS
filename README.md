@@ -7,7 +7,7 @@ Vim do chão de fábrica: passei anos operando e ajustando injetoras na indústr
 Hoje trabalho em duas frentes:
 
 - **Desenvolvimento web:** manutenção e evolução de um sistema empresarial em produção (React, Node.js, TypeScript, PostgreSQL). Eliminei consultas N+1 em listagens operacionais, criei relatórios em tempo real de produção e exportação para Excel e PDF.
-- **IA aplicada:** como Gestor de IA na Carmillion, configuro agentes de atendimento com LLMs para revendas de veículos, faço a engenharia de prompts e integro a plataforma com Mercado Livre, OLX e Webmotors.
+- **IA aplicada:** como **AI Implementation Specialist (Gestor de IA)** na Carmillion, cuido de uma carteira de 20 clientes: levanto a necessidade de cada revenda de veículos, configuro o agente de atendimento com LLM, faço a engenharia de prompts e integro a plataforma com Mercado Livre, OLX e Webmotors. No dia a dia uso Python e Spring Boot.
 
 🎯 Busco oportunidades como **Desenvolvedor Full Stack** (presencial ou híbrido em Porto Alegre e região, ou remoto).
 
