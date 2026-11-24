@@ -24,6 +24,15 @@ Cuido de uma carteira de 20 clientes, revendas de veículos que usam um agente d
 - **Manter o CRM:** parametrização, funcionalidades no front-end e desenvolvimento em Python e Spring Boot.
 - **Resultado:** o agente responde 100% das mensagens, atende todo o omnichannel da Meta e fala só com cliente qualificado.
 
+**Um caso em detalhe: migração de um cliente para o padrão da empresa**
+A empresa está levando todos os clientes para o mesmo agente. Um deles ainda rodava a IA dentro do n8n, com fluxos difíceis de manter. Eu movi a IA para o agente da plataforma e deixei o n8n só como ponte entre o CRM do cliente e o agente:
+
+- Webhook de entrada e de saída protegido por segredo no header, e o Redis guarda a chave de cada contato por 48 horas para a resposta voltar para quem perguntou.
+- Uma ferramenta de transferência que encaminha a conversa para o setor certo entre 8 departamentos quando o assunto pede uma pessoa.
+- Bloqueio da IA quando um atendente humano assume a conversa.
+- Um problema que resolvi: contatos vindos de redes sociais, sem telefone, tinham a resposta trocada de pessoa quando duas escreviam ao mesmo tempo. Separei o caminho (por telefone ou por ID do lead) e cada contato passou a receber a própria resposta.
+- Está em produção e a IA responde os leads na hora.
+
 **Como desenvolvedor Full Stack (freelancer)**
 Mantenho e evoluo um sistema empresarial em produção (React, Node.js, TypeScript, PostgreSQL): tirei consultas N+1 de listagens operacionais, criei relatórios de produção em tempo real e exportação para Excel e PDF.
 
@@ -62,7 +71,7 @@ Site de uma rede de barbearias com 6 unidades: mapa interativo, botão que acha 
 |---|---|
 | **Principal** | TypeScript, JavaScript, React, Node.js, PostgreSQL |
 | Back-end | Express, Prisma, Zod, APIs REST, RBAC, Python, Spring Boot |
-| IA | LLMs, agentes, tool calling, MCP, RAG, engenharia de prompts, integrações de APIs |
+| IA | LLMs, agentes, tool calling, MCP, RAG, engenharia de prompts, integrações de APIs, n8n, webhooks, Redis |
 | Qualidade e entrega | Vitest, GitHub Actions, Docker, Vercel, Git Flow |
 
 ## Formação
